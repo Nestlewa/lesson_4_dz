@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+@font-face {
+    font-family: 'Larsseit';
+    src: url(../fonts/lasserit/Larsseit.woff2) format('woff2'),
+        url(../fonts/lasserit/Larsseit.woff) format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Larsseit';
+    src: url(../fonts/lasserit/Larsseit-Bold.woff2) format('woff2'),
+        url(../fonts/lasserit/Larsseit-Bold.woff) format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Larsseit';
+    src: url(../fonts/lasserit/Larsseit-Medium.woff2) format('woff2'),
+        url(../fonts/lasserit/Larsseit-Medium.woff) format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url(../fonts/Latoo/Lato-Regular.woff2) format('woff2'),
+    url(../fonts/Latoo/Lato-Regular.woff) format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url(../fonts/Latoo/Lato-Bold.woff2) format('woff2'),
+    url(../fonts/Latoo/Lato-Bold.woff) format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url(../fonts/Latoo/Lato-Black.woff2) format('woff2'),
+    url(../fonts/Latoo/Lato-Black.woff) format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    font-family: Larsseit;
+    font-weight: 400;
+}
+.caption{
+    font-family: Lato;
+    font-weight: 900;
+    color: cadetblue;
+    font-size: 50px;
+}
+header>p{
+    font-family: Roboto;
+    font-weight: 700;
+    color: chartreuse;
+    font-size: 25px;
+}
+p+p{
+    color: blueviolet;
+    font-size: 26px;
+}
+ul>li{
+    font-family: Lato;
+    font-weight: 700;
+    color: darkred;
+    font-size: 20px;
+}
+li+li{
+    font-family: Roboto;
+    color: aqua;
+}
+#part-2{
+    font-size: 30px;
+    color: blue;
+}
+h2.title{
+    font-family: Larsseit;
+    color: crimson;
+    font-size: 45px;
+}
+#part-1 p{
+    font-size: 25px;
+    color: rgb(246, 255, 0);
+}
+#part-3>p{
+    font-family: Roboto;
+    font-size: 25px;
+    color: chartreuse;
+}
+footer>p{
+    font-weight: 900;
+    color: rgb(11, 98, 3);
+}
